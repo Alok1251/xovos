@@ -23,7 +23,7 @@ function App() {
     }, [theme])
 
     return (
-        <Router>
+        <Router basename={import.meta.env.BASE_URL}>
             {/* Global animated background */}
             <div className="page-bg">
                 <div className="bg-blob" style={{
