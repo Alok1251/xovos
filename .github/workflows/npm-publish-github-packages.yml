@@ -31,11 +31,9 @@ jobs:
           
       - name: Install dependencies
         run: npm install
-        working-directory: xovos-react
         
       - name: Build React App
         run: npm run build
-        working-directory: xovos-react
         
       - name: Setup Pages
         uses: actions/configure-pages@v4
@@ -43,7 +41,7 @@ jobs:
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3
         with:
-          path: './xovos-react/dist'
+          path: './dist'
           
       - name: Deploy to GitHub Pages
         id: deployment
