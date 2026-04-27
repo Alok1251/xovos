@@ -207,7 +207,7 @@ const Home = () => (
             paddingBottom: '80px'
         }}>
             <div className="container">
-                <div className="responsive-grid-2" style={{ display: 'grid', gridTemplateColumns: 'minmax(0, 1.2fr) 1fr', gap: '80px', alignItems: 'center' }}>
+                <div className="hero-grid">
 
                     {/* Left */}
                     <div>
@@ -260,7 +260,6 @@ const Home = () => (
 
                     {/* Right: Visual */}
                     <motion.div
-                        className="hide-mobile"
                         initial={{ opacity: 0, x: 40 }}
                         animate={{ opacity: 1, x: 0 }}
                         transition={{ duration: 1, delay: 0.2, ease: [0.16, 1, 0.3, 1] }}

@@ -429,6 +429,23 @@ img {
 }
 
 /* =============================================
+   HERO GRID
+   ============================================= */
+.hero-grid {
+    display: grid;
+    grid-template-columns: minmax(0, 1.2fr) 1fr;
+    gap: 80px;
+    align-items: center;
+}
+
+@media (max-width: 900px) {
+    .hero-grid {
+        grid-template-columns: 1fr;
+        gap: 60px;
+    }
+}
+
+/* =============================================
    MARQUEE / TRUSTED BY
    ============================================= */
 .marquee-section {
