@@ -207,7 +207,7 @@ const Home = () => (
             paddingBottom: '80px'
         }}>
             <div className="container">
-                <div style={{ display: 'grid', gridTemplateColumns: 'minmax(0, 1.2fr) 1fr', gap: '80px', alignItems: 'center' }}>
+                <div className="responsive-grid-2" style={{ display: 'grid', gridTemplateColumns: 'minmax(0, 1.2fr) 1fr', gap: '80px', alignItems: 'center' }}>
 
                     {/* Left */}
                     <div>
@@ -241,7 +241,7 @@ const Home = () => (
                             <Link to="/portfolio" className="btn btn-secondary btn-lg" style={{ minWidth: '200px', justifyContent: 'center' }}>See Case Studies</Link>
                         </motion.div>
 
-                        <motion.div {...fadeUp(0.45)} style={{ display: 'grid', gridTemplateColumns: '1fr 1fr', gap: '20px', maxWidth: '600px' }}>
+                        <motion.div {...fadeUp(0.45)} className="responsive-grid-2" style={{ display: 'grid', gridTemplateColumns: '1fr 1fr', gap: '20px', maxWidth: '600px' }}>
                             {[
                                 { icon: 'fa-globe', text: 'Scalable Full-Stack Web' },
                                 { icon: 'fa-mobile-android', text: 'Native Android Apps' },
@@ -260,6 +260,7 @@ const Home = () => (
 
                     {/* Right: Visual */}
                     <motion.div
+                        className="hide-mobile"
                         initial={{ opacity: 0, x: 40 }}
                         animate={{ opacity: 1, x: 0 }}
                         transition={{ duration: 1, delay: 0.2, ease: [0.16, 1, 0.3, 1] }}
@@ -374,7 +375,7 @@ const Home = () => (
                         <Link to="/contact" className="btn btn-primary btn-lg" style={{ minWidth: '220px' }}>
                             Kickoff Free Consultation
                         </Link>
-                        <a href="https://wa.me/15551234567" className="btn btn-secondary btn-lg" style={{ minWidth: '180px' }}>
+                        <a href="https://wa.me/917894944657" className="btn btn-secondary btn-lg" style={{ minWidth: '180px' }}>
                             <i className="fab fa-whatsapp" style={{ color: '#22c55e' }}></i>&nbsp; WhatsApp Us
                         </a>
                     </div>

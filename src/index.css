@@ -1142,6 +1142,14 @@ img {
         align-items: flex-start !important;
     }
 
+    .hide-mobile {
+        display: none !important;
+    }
+
+    .show-mobile {
+        display: block !important;
+    }
+
     .nav-links.mobile-open {
         display: flex;
         flex-direction: column;
