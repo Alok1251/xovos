@@ -202,8 +202,7 @@ const Home = () => (
 
         {/* ══════════════ HERO ══════════════ */}
         <section style={{
-            minHeight: '100vh', display: 'flex', alignItems: 'center',
-            paddingTop: 'calc(var(--nav-h) + 40px)', overflow: 'hidden', position: 'relative',
+            paddingTop: 'calc(var(--nav-h) + 80px)', overflow: 'hidden', position: 'relative',
             paddingBottom: '80px'
         }}>
             <div className="container">
