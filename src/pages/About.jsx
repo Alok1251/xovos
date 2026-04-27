@@ -275,9 +275,9 @@ const About = () => (
                 <div style={{ maxWidth: '680px', margin: '0 auto' }}>
                     <div className="card" style={{ padding: '48px', display: 'flex', gap: '32px', alignItems: 'flex-start' }}>
                         <div style={{ flexShrink: 0 }}>
-                            <div style={{ width: '90px', height: '90px', borderRadius: '50%', overflow: 'hidden', border: '3px solid rgba(99,102,241,0.3)' }}>
-                                <img src="https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?auto=format&fit=crop&q=80&w=200" alt="Founder" style={{ objectFit: 'cover', width: '100%', height: '100%' }} />
-                            </div>
+                            <a href="https://www.linkedin.com/in/alok-kumar-sahoo-253576208" target="_blank" rel="noreferrer" style={{ width: '90px', height: '90px', borderRadius: '50%', overflow: 'hidden', border: '3px solid rgba(99,102,241,0.3)', display: 'block' }}>
+                                <img src="https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?auto=format&fit=crop&q=80&w=200" alt="Alok Kumar Sahoo" style={{ objectFit: 'cover', width: '100%', height: '100%', transition: 'transform 0.3s' }} onMouseEnter={e => e.currentTarget.style.transform = 'scale(1.1)'} onMouseLeave={e => e.currentTarget.style.transform = 'scale(1)'} />
+                            </a>
                         </div>
                         <div>
                             <h3 style={{ fontSize: '1.3rem', fontWeight: 800, marginBottom: '4px' }}>Alok Sahoo</h3>
@@ -289,7 +289,7 @@ const About = () => (
                                 I founded Xovos to bring the same engineering rigour used inside enterprise FinTech companies to startups and businesses that deserve world-class software — not low-quality outsourced code.
                             </p>
                             <div style={{ display: 'flex', gap: '10px', flexWrap: 'wrap' }}>
-                                <a href="#" className="btn btn-secondary" style={{ padding: '8px 14px', fontSize: '0.8rem' }}>
+                                <a href="https://www.linkedin.com/in/alok-kumar-sahoo-253576208" target="_blank" rel="noreferrer" className="btn btn-secondary" style={{ padding: '8px 14px', fontSize: '0.8rem' }}>
                                     <i className="fab fa-linkedin"></i>&nbsp; LinkedIn
                                 </a>
                                 <a href="#" className="btn btn-secondary" style={{ padding: '8px 14px', fontSize: '0.8rem' }}>

@@ -44,8 +44,8 @@ const Footer = () => (
                 <div className="footer-col">
                     <h4>Contact</h4>
                     <ul>
-                        <li><a href="mailto:hello@xovos.tech">hello@xovos.tech</a></li>
-                        <li><a href="tel:+15550001234">+1 (555) 000-1234</a></li>
+                        <li><a href="mailto:admin.xovos@gmail.com">admin.xovos@gmail.com</a></li>
+                        <li><a href="tel:+917894944657">+91 7894944657</a></li>
                         <li><a href="#">Silicon Valley, CA</a></li>
                     </ul>
                 </div>

@@ -44,13 +44,13 @@ const Contact = () => {
                             <div style={{ marginBottom: '24px' }}>
                                 <h3 style={{ fontSize: '1rem', fontWeight: 700, marginBottom: '16px', color: 'var(--text-secondary)', textTransform: 'uppercase', letterSpacing: '0.5px', fontSize: '0.8rem' }}>Reach us directly</h3>
 
-                                <a href="https://wa.me/15551234567" className="contact-info-item" style={{ display: 'flex', textDecoration: 'none', marginBottom: '12px', transition: 'all 0.2s' }}>
+                                <a href="https://wa.me/917894944657" className="contact-info-item" style={{ display: 'flex', textDecoration: 'none', marginBottom: '12px', transition: 'all 0.2s' }}>
                                     <div className="contact-icon" style={{ color: '#22c55e', background: 'rgba(34,197,94,0.1)', borderColor: 'rgba(34,197,94,0.2)' }}>
                                         <i className="fab fa-whatsapp"></i>
                                     </div>
                                     <div style={{ marginLeft: '12px' }}>
                                         <div style={{ fontWeight: 700, fontSize: '0.9rem', marginBottom: '2px' }}>WhatsApp — fastest reply</div>
-                                        <div style={{ color: 'var(--text-secondary)', fontSize: '0.825rem' }}>+1 (555) 123-4567</div>
+                                        <div style={{ color: 'var(--text-secondary)', fontSize: '0.825rem' }}>+91 7894944657</div>
                                     </div>
                                     <i className="fas fa-arrow-right" style={{ marginLeft: 'auto', color: 'var(--text-tertiary)', alignSelf: 'center', fontSize: '0.75rem' }}></i>
                                 </a>
@@ -61,7 +61,7 @@ const Contact = () => {
                                     </div>
                                     <div style={{ marginLeft: '12px' }}>
                                         <div style={{ fontWeight: 700, fontSize: '0.9rem', marginBottom: '2px' }}>Email</div>
-                                        <a href="mailto:hello@xovos.tech" style={{ color: 'var(--text-secondary)', fontSize: '0.825rem', textDecoration: 'none' }}>hello@xovos.tech</a>
+                                        <a href="mailto:alok.sahoo.official@gmail.com" style={{ color: 'var(--text-secondary)', fontSize: '0.825rem', textDecoration: 'none' }}>alok.sahoo.official@gmail.com</a>
                                     </div>
                                 </div>
 
@@ -113,7 +113,7 @@ const Contact = () => {
                                     <p style={{ color: 'var(--text-secondary)', marginBottom: '24px', lineHeight: 1.6 }}>
                                         We will review your project details and get back to you within a few hours. Check your inbox!
                                     </p>
-                                    <a href="https://wa.me/15551234567" className="btn btn-secondary">
+                                    <a href="https://wa.me/917894944657" className="btn btn-secondary">
                                         <i className="fab fa-whatsapp" style={{ color: '#22c55e' }}></i>&nbsp; Also ping us on WhatsApp
                                     </a>
                                 </div>
