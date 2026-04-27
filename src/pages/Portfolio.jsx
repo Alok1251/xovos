@@ -38,6 +38,42 @@ const PROJECTS = [
         desc: 'ML pipeline for financial forecasting. Analyzes market trends and historical data to provide real-time investment risk scores.',
         tags: ['PyTorch', 'Spark', 'Python', 'AWS'],
         img: 'https://images.unsplash.com/photo-1460925895917-afdab827c52f?auto=format&fit=crop&q=80&w=800'
+    },
+    {
+        id: 7, cat: 'Web', title: 'Universal Hotel Management',
+        desc: 'Comprehensive property management system handling reservations, room assignments, and integrated billing.',
+        tags: ['React', 'Node.js', 'PostgreSQL'],
+        img: 'https://images.unsplash.com/photo-1566073771259-6a8506099945?auto=format&fit=crop&q=80&w=800'
+    },
+    {
+        id: 8, cat: 'Web', title: 'Restaurant POS & Management',
+        desc: 'Complete restaurant solution with table management, kitchen ticketing, and real-time inventory tracking.',
+        tags: ['Next.js', 'WebSockets', 'Redis'],
+        img: 'https://images.unsplash.com/photo-1517248135467-4c7edcad34c4?auto=format&fit=crop&q=80&w=800'
+    },
+    {
+        id: 9, cat: 'Android', title: 'Gym & Club Management',
+        desc: 'Member portal and administrative dashboard for fitness centers. Supports class scheduling and automated renewals.',
+        tags: ['Android', 'Kotlin', 'Firebase'],
+        img: 'https://images.unsplash.com/photo-1534438327276-14e5300c3a48?auto=format&fit=crop&q=80&w=800'
+    },
+    {
+        id: 10, cat: 'Web', title: 'Hospital Management System',
+        desc: 'Secure healthcare platform for patient records, appointment scheduling, and staff rostering (HIPAA compliant).',
+        tags: ['React', 'Rust', 'PostgreSQL'],
+        img: 'https://images.unsplash.com/photo-1519494026892-80bbd2d6fd0d?auto=format&fit=crop&q=80&w=800'
+    },
+    {
+        id: 11, cat: 'Android', title: 'Medicine Management App',
+        desc: 'Pharmacy inventory and prescription management app with expiration tracking and automated supplier ordering.',
+        tags: ['Android', 'Go', 'Scanner API'],
+        img: 'https://images.unsplash.com/photo-1584308666744-24d5e4deffc6?auto=format&fit=crop&q=80&w=800'
+    },
+    {
+        id: 12, cat: 'Web', title: 'Store Inventory System',
+        desc: 'Multi-warehouse retail inventory management platform featuring barcode scanning and low-stock predictive alerts.',
+        tags: ['Next.js', 'Express', 'MySQL'],
+        img: 'https://images.unsplash.com/photo-1553413077-190dd305871c?auto=format&fit=crop&q=80&w=800'
     }
 ]
 
@@ -131,7 +167,7 @@ const Portfolio = () => {
                         <p style={{ maxWidth: '500px', margin: '0 auto 32px' }}>From AI agents to native Android apps, we have the engineering depth to make your vision a reality.</p>
                         <div style={{ display: 'flex', gap: '16px', justifyContent: 'center', flexWrap: 'wrap' }}>
                             <Link to="/contact" className="btn btn-primary btn-lg"><i className="fas fa-calendar-check"></i>&nbsp; Book Free Consultation</Link>
-                            <a href="https://wa.me/15551234567" className="btn btn-secondary btn-lg"><i className="fab fa-whatsapp" style={{ color: '#22c55e' }}></i>&nbsp; WhatsApp Us</a>
+                            <a href="https://wa.me/917894944657" className="btn btn-secondary btn-lg"><i className="fab fa-whatsapp" style={{ color: '#22c55e' }}></i>&nbsp; WhatsApp Us</a>
                         </div>
                     </div>
                 </div>

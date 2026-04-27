@@ -41,6 +41,42 @@ const CASE_STUDIES = [
         desc: 'Custom-trained LLM agent for enterprise support automation, reducing manual overhead by 40%.',
         tags: ['Python', 'OpenAI', 'FastAPI'],
         img: 'https://images.unsplash.com/photo-1504868584819-f8e905b6cbe0?auto=format&fit=crop&q=80&w=800'
+    },
+    {
+        title: 'Universal Hotel Management', cat: 'Web / Management',
+        desc: 'Comprehensive property management system handling reservations, room assignments, and integrated billing.',
+        tags: ['React', 'Node.js', 'PostgreSQL'],
+        img: 'https://images.unsplash.com/photo-1566073771259-6a8506099945?auto=format&fit=crop&q=80&w=800'
+    },
+    {
+        title: 'Restaurant POS & Management', cat: 'Web / Ops',
+        desc: 'Complete restaurant solution with table management, kitchen ticketing, and real-time inventory tracking.',
+        tags: ['Next.js', 'WebSockets', 'Redis'],
+        img: 'https://images.unsplash.com/photo-1517248135467-4c7edcad34c4?auto=format&fit=crop&q=80&w=800'
+    },
+    {
+        title: 'Gym & Club Management', cat: 'Android / Platform',
+        desc: 'Member portal and administrative dashboard for fitness centers. Supports class scheduling and automated renewals.',
+        tags: ['Android', 'Kotlin', 'Firebase'],
+        img: 'https://images.unsplash.com/photo-1534438327276-14e5300c3a48?auto=format&fit=crop&q=80&w=800'
+    },
+    {
+        title: 'Hospital Management System', cat: 'Web / Healthcare',
+        desc: 'Secure healthcare platform for patient records, appointment scheduling, and staff rostering (HIPAA compliant).',
+        tags: ['React', 'Rust', 'PostgreSQL'],
+        img: 'https://images.unsplash.com/photo-1519494026892-80bbd2d6fd0d?auto=format&fit=crop&q=80&w=800'
+    },
+    {
+        title: 'Medicine Management App', cat: 'Android / Healthcare',
+        desc: 'Pharmacy inventory and prescription management app with expiration tracking and automated supplier ordering.',
+        tags: ['Android', 'Go', 'Scanner API'],
+        img: 'https://images.unsplash.com/photo-1584308666744-24d5e4deffc6?auto=format&fit=crop&q=80&w=800'
+    },
+    {
+        title: 'Store Inventory System', cat: 'Web / Logistics',
+        desc: 'Multi-warehouse retail inventory management platform featuring barcode scanning and low-stock predictive alerts.',
+        tags: ['Next.js', 'Express', 'MySQL'],
+        img: 'https://images.unsplash.com/photo-1553413077-190dd305871c?auto=format&fit=crop&q=80&w=800'
     }
 ]
 
