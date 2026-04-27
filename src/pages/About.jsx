@@ -97,7 +97,7 @@ const About = () => (
         {/* ——— CREDIBILITY STRIP ——— */}
         <section className="section-sm" style={{ borderTop: '1px solid var(--border)', borderBottom: '1px solid var(--border)' }}>
             <div className="container">
-                <div style={{ display: 'grid', gridTemplateColumns: 'repeat(4,1fr)', gap: '2px', background: 'var(--border)', border: '1px solid var(--border)', borderRadius: '24px', overflow: 'hidden' }}>
+                <div className="responsive-grid-4" style={{ display: 'grid', gridTemplateColumns: 'repeat(4,1fr)', gap: '2px', background: 'var(--border)', border: '1px solid var(--border)', borderRadius: '24px', overflow: 'hidden' }}>
                     {[
                         { num: '20k+', label: 'Requests / sec', sub: 'Distributed API Gateway' },
                         { num: '300k+', label: 'IoT Units', sub: 'Backend scaled & maintained' },
@@ -145,7 +145,7 @@ const About = () => (
 
                         <div style={{ height: '1px', background: 'var(--border)', margin: '24px 0' }}></div>
 
-                        <div style={{ display: 'grid', gridTemplateColumns: 'repeat(2,1fr)', gap: '16px' }}>
+                        <div className="responsive-grid-2" style={{ display: 'grid', gridTemplateColumns: 'repeat(2,1fr)', gap: '16px' }}>
                             {exp.highlights.map(h => (
                                 <div key={h.metric} style={{ display: 'flex', gap: '14px', padding: '16px', background: 'rgba(255,255,255,0.02)', borderRadius: '12px', border: '1px solid var(--border)' }}>
                                     <div style={{ flexShrink: 0, minWidth: '90px' }}>
@@ -174,7 +174,7 @@ const About = () => (
                     </div>
                 </div>
 
-                <div style={{ display: 'grid', gridTemplateColumns: 'repeat(2,1fr)', gap: '20px' }}>
+                <div className="responsive-grid-2" style={{ display: 'grid', gridTemplateColumns: 'repeat(2,1fr)', gap: '20px' }}>
                     {MESH_PROJECT.highlights.map((h, i) => (
                         <motion.div
                             key={h.title}
@@ -201,7 +201,7 @@ const About = () => (
         {/* ——— TECH SKILLS ——— */}
         <section className="section" style={{ borderTop: '1px solid var(--border)' }}>
             <div className="container">
-                <div style={{ display: 'grid', gridTemplateColumns: '1fr 1fr', gap: '80px', alignItems: 'start' }}>
+                <div className="responsive-grid-2" style={{ display: 'grid', gridTemplateColumns: '1fr 1fr', gap: '80px', alignItems: 'start' }}>
                     <motion.div initial={{ opacity: 0, x: -32 }} whileInView={{ opacity: 1, x: 0 }} viewport={{ once: true }}>
                         <span className="badge" style={{ marginBottom: '20px' }}>Technical Skills</span>
                         <h2 style={{ fontSize: '2.5rem', fontWeight: 900, letterSpacing: '-2px', marginBottom: '16px', lineHeight: 1.1 }}>
@@ -273,7 +273,7 @@ const About = () => (
                     <h2>The engineer <span className="text-grad">you'll work with</span></h2>
                 </div>
                 <div style={{ maxWidth: '680px', margin: '0 auto' }}>
-                    <div className="card" style={{ padding: '48px', display: 'flex', gap: '32px', alignItems: 'flex-start' }}>
+                    <div className="card responsive-flex-row" style={{ padding: '48px', display: 'flex', gap: '32px', alignItems: 'flex-start' }}>
                         <div style={{ flexShrink: 0 }}>
                             <a href="https://www.linkedin.com/in/alok-kumar-sahoo-253576208" target="_blank" rel="noreferrer" style={{ width: '90px', height: '90px', borderRadius: '50%', overflow: 'hidden', border: '3px solid rgba(99,102,241,0.3)', display: 'block' }}>
                                 <img src="https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?auto=format&fit=crop&q=80&w=200" alt="Alok Kumar Sahoo" style={{ objectFit: 'cover', width: '100%', height: '100%', transition: 'transform 0.3s' }} onMouseEnter={e => e.currentTarget.style.transform = 'scale(1.1)'} onMouseLeave={e => e.currentTarget.style.transform = 'scale(1)'} />
